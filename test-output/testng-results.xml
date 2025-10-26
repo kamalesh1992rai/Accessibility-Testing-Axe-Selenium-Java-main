@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-09-19T14:49:43 IST" name="Default suite" finished-at="2025-09-19T14:49:55 IST" duration-ms="11519">
+    <groups>
+    </groups>
+    <test started-at="2025-09-19T14:49:43 IST" name="Default test" finished-at="2025-09-19T14:49:55 IST" duration-ms="11519">
+      <class name="AccessibilityTests.AllyTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:AccessibilityTests.AllyTest@28701274]" started-at="2025-09-19T14:49:43 IST" name="setup" finished-at="2025-09-19T14:49:51 IST" duration-ms="8394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AllyTest()[pri:0, instance:AccessibilityTests.AllyTest@28701274]" started-at="2025-09-19T14:49:51 IST" name="AllyTest" finished-at="2025-09-19T14:49:54 IST" duration-ms="2602" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Found 9 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) [".team-carousel2 > .owl-nav.disabled > .owl-prev[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  b) [".team-carousel2 > .owl-nav.disabled > .owl-next[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  c) [".testimonials-slider-3 > .owl-nav.disabled > .owl-prev[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  d) [".testimonials-slider-3 > .owl-nav.disabled > .owl-next[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) Buttons must have discernible text: https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI
+  a) ["button[onclick=\"changeSlide\\(-1\\)\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element has a value attribute and the value attribute is empty
+      Element has no value attribute or the value attribute is empty
+      Element does not have inner text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+      Element has no title attribute or the title attribute is empty
+
+
+  b) ["button[onclick=\"changeSlide\\(1\\)\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element has a value attribute and the value attribute is empty
+      Element has no value attribute or the value attribute is empty
+      Element does not have inner text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+      Element has no title attribute or the title attribute is empty
+
+
+3) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) ["strong"]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.25 (foreground color: #f3170f, background color: #ffffff, font size: 13.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  b) [".irctc-service-card:nth-child(1) > .card-details > .explore-link[target=\"_blank\"]"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.93 (foreground color: #f37021, background color: #ffffff, font size: 11.3pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  c) ["a[href$=\"www.bus.irctc.co.in\"]"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.93 (foreground color: #f37021, background color: #ffffff, font size: 11.3pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  d) [".title"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.91 (foreground color: #ff0000, background color: #c3e2e4, font size: 18.8pt, font weight: bold). Expected contrast ratio of 3:1
+
+
+  e) [".hl-rightPanel-tab[data-name=\"userInfo1\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  f) [".hl-rightPanel-tab[data-name=\"userInfo2\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  g) [".hl-rightPanel-tab[data-name=\"userInfo3\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  h) [".hl-rightPanel-tab[data-name=\"userInfo4\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  i) [".hl-rightPanel-tab[data-name=\"userInfo5\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+4) Headings must not be empty: https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI
+  a) [".logo-container > h6"]
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+
+
+5) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+  a) [".irctc-service-card:nth-child(1) > .card-details > h5"]
+    Fix any of the following:
+      Heading order invalid
+
+
+  b) [".logo-container > h6"]
+    Fix any of the following:
+      Heading order invalid
+
+
+6) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [":root"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [":root"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) ["img[src$=\"hits3.png\"]"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+7) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [".logo3"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [".slider3.swiper-slide-duplicate[data-swiper-slide-index=\"\\33 \"] > a[href$=\"travel-tourism.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) [".swiper-slide-prev > .container > .slider-content > .slider-right > .qr-code > a[href$=\"catering-services.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  d) [".swiper-slide-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  e) [".swiper-slide-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  f) [".swiper-slide-prev > a[href$=\"catering-services.php\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  g) [".slider2 > a[href$=\"rail-neer-plants.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  h) [".slider3.swiper-slide[data-swiper-slide-index=\"\\33 \"]:nth-child(5) > a[href$=\"travel-tourism.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  i) [".swiper-slide-duplicate-prev > .container > .slider-content > .slider-right > .qr-code > a[href$=\"catering-services.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  j) [".swiper-slide-duplicate-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  k) [".swiper-slide-duplicate-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  l) [".swiper-slide-duplicate-prev > a[href$=\"catering-services.php\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  m) [".social-area > a[target=\"_blank\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  n) [".social-area > a[target=\"_blank\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  o) [".social-area > a[target=\"_blank\"]:nth-child(3)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  p) ["a[target=\"_blank\"]:nth-child(4)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  q) ["a[target=\"_blank\"]:nth-child(5)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+8) <marquee> elements are deprecated and must not be used: https://dequeuniversity.com/rules/axe/3.1/marquee?application=axeAPI
+  a) ["marquee"]
+    Fix all of the following:
+      Element is visible
+
+
+9) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Found 9 accessibility violations:
+1) ARIA role must be appropriate for the element: https://dequeuniversity.com/rules/axe/3.1/aria-allowed-role?application=axeAPI
+  a) [".team-carousel2 > .owl-nav.disabled > .owl-prev[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  b) [".team-carousel2 > .owl-nav.disabled > .owl-next[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  c) [".testimonials-slider-3 > .owl-nav.disabled > .owl-prev[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+  d) [".testimonials-slider-3 > .owl-nav.disabled > .owl-next[role=\"presentation\"][type=\"button\"]"]
+    Fix any of the following:
+      role presentation  is not allowed for given element
+
+
+2) Buttons must have discernible text: https://dequeuniversity.com/rules/axe/3.1/button-name?application=axeAPI
+  a) ["button[onclick=\"changeSlide\\(-1\\)\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element has a value attribute and the value attribute is empty
+      Element has no value attribute or the value attribute is empty
+      Element does not have inner text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+      Element has no title attribute or the title attribute is empty
+
+
+  b) ["button[onclick=\"changeSlide\\(1\\)\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element has a value attribute and the value attribute is empty
+      Element has no value attribute or the value attribute is empty
+      Element does not have inner text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+      Element has no title attribute or the title attribute is empty
+
+
+3) Elements must have sufficient color contrast: https://dequeuniversity.com/rules/axe/3.1/color-contrast?application=axeAPI
+  a) ["strong"]
+    Fix any of the following:
+      Element has insufficient color contrast of 4.25 (foreground color: #f3170f, background color: #ffffff, font size: 13.5pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  b) [".irctc-service-card:nth-child(1) > .card-details > .explore-link[target=\"_blank\"]"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.93 (foreground color: #f37021, background color: #ffffff, font size: 11.3pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  c) ["a[href$=\"www.bus.irctc.co.in\"]"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.93 (foreground color: #f37021, background color: #ffffff, font size: 11.3pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  d) [".title"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.91 (foreground color: #ff0000, background color: #c3e2e4, font size: 18.8pt, font weight: bold). Expected contrast ratio of 3:1
+
+
+  e) [".hl-rightPanel-tab[data-name=\"userInfo1\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  f) [".hl-rightPanel-tab[data-name=\"userInfo2\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  g) [".hl-rightPanel-tab[data-name=\"userInfo3\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  h) [".hl-rightPanel-tab[data-name=\"userInfo4\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+  i) [".hl-rightPanel-tab[data-name=\"userInfo5\"][data-type=\"bar\"] > em"]
+    Fix any of the following:
+      Element has insufficient color contrast of 2.4 (foreground color: #ffffff, background color: #6eb2b7, font size: 9.0pt, font weight: bold). Expected contrast ratio of 4.5:1
+
+
+4) Headings must not be empty: https://dequeuniversity.com/rules/axe/3.1/empty-heading?application=axeAPI
+  a) [".logo-container > h6"]
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+
+
+5) Heading levels should only increase by one: https://dequeuniversity.com/rules/axe/3.1/heading-order?application=axeAPI
+  a) [".irctc-service-card:nth-child(1) > .card-details > h5"]
+    Fix any of the following:
+      Heading order invalid
+
+
+  b) [".logo-container > h6"]
+    Fix any of the following:
+      Heading order invalid
+
+
+6) Images must have alternate text: https://dequeuniversity.com/rules/axe/3.1/image-alt?application=axeAPI
+  a) [":root"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [":root"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) ["img[src$=\"hits3.png\"]"]
+    Fix any of the following:
+      Element does not have an alt attribute
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element has no title attribute or the title attribute is empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+7) Links must have discernible text: https://dequeuniversity.com/rules/axe/3.1/link-name?application=axeAPI
+  a) [".logo3"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  b) [".slider3.swiper-slide-duplicate[data-swiper-slide-index=\"\\33 \"] > a[href$=\"travel-tourism.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  c) [".swiper-slide-prev > .container > .slider-content > .slider-right > .qr-code > a[href$=\"catering-services.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  d) [".swiper-slide-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  e) [".swiper-slide-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  f) [".swiper-slide-prev > a[href$=\"catering-services.php\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  g) [".slider2 > a[href$=\"rail-neer-plants.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  h) [".slider3.swiper-slide[data-swiper-slide-index=\"\\33 \"]:nth-child(5) > a[href$=\"travel-tourism.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  i) [".swiper-slide-duplicate-prev > .container > .slider-content > .slider-right > .qr-code > a[href$=\"catering-services.php\"]"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  j) [".swiper-slide-duplicate-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  k) [".swiper-slide-duplicate-prev > .container > .slider-content > .slider-right > .store-area > a[target=\"_blank\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  l) [".swiper-slide-duplicate-prev > a[href$=\"catering-services.php\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  m) [".social-area > a[target=\"_blank\"]:nth-child(1)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  n) [".social-area > a[target=\"_blank\"]:nth-child(2)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  o) [".social-area > a[target=\"_blank\"]:nth-child(3)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  p) ["a[target=\"_blank\"]:nth-child(4)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+  q) ["a[target=\"_blank\"]:nth-child(5)"]
+    Fix all of the following:
+      Element is in tab order and does not have accessible text
+
+    Fix any of the following:
+      Element does not have text that is visible to screen readers
+      aria-label attribute does not exist or is empty
+      aria-labelledby attribute does not exist, references elements that do not exist or references elements that are empty
+      Element's default semantics were not overridden with role="presentation"
+      Element's default semantics were not overridden with role="none"
+
+
+8) <marquee> elements are deprecated and must not be used: https://dequeuniversity.com/rules/axe/3.1/marquee?application=axeAPI
+  a) ["marquee"]
+    Fix all of the following:
+      Element is visible
+
+
+9) All page content must be contained by landmarks: https://dequeuniversity.com/rules/axe/3.1/region?application=axeAPI
+  a) ["html"]
+    Fix any of the following:
+      Some page content is not contained by landmarks
+
+
+at AccessibilityTests.AllyTest.AllyTest(AllyTest.java:45)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+at org.testng.TestRunner.privateRun(TestRunner.java:739)
+at org.testng.TestRunner.run(TestRunner.java:614)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AllyTest -->
+        <test-method is-config="true" signature="generateAccessibilityReportsAndTearDown()[pri:0, instance:AccessibilityTests.AllyTest@28701274]" started-at="2025-09-19T14:49:54 IST" name="generateAccessibilityReportsAndTearDown" finished-at="2025-09-19T14:49:55 IST" duration-ms="441" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateAccessibilityReportsAndTearDown -->
+      </class> <!-- AccessibilityTests.AllyTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
